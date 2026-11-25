@@ -1,0 +1,33 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local Python environment
+.venv/
+venv/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Generated RAG data
+/data/index.json
+
+# Generated documents and previews
+/output/
+/tmp/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+
+# Runtime output
+*.log
